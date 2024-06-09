@@ -1,21 +1,8 @@
-@font-face{
-    font-family: 'Roboto Condensed';
-    font-display: swap;
-    src: url('../fonts/RobotoCondensed-VariableFont_wght.ttf') format("truetype");
-}
-
 @font-face {
     font-family: 'A-OTF Shin Go Pro R';
     font-style: normal;
     font-weight: normal;
     src: local('A-OTF Shin Go Pro R'), url('../fonts/AOTFShinGoProRegular.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'A-OTF Shin Go Pro R Sub';
-    font-style: normal;
-    font-weight: normal;
-    src: local('A-OTF Shin Go Pro R Sub'), url('../fonts/AOTFShinGoProRegular.subset.otf') format('opentype');
 }
 
 @font-face {
@@ -67,6 +54,6 @@
 
 
 body{
-    font-family: 'A-OTF Shin Go Pro R','A-OTF Shin Go Pro EL', 'A-OTF Shin Go Pro L', 'A-OTF Shin Go Pro M', 'A-OTF Shin Go Pro DB', 'A-OTF Shin Go Pro B', 'A-OTF Shin Go Pro H', sans-serif;
+    font-family: 'A-OTF Shin Go Pro M', 'A-OTF Shin Go Pro R','A-OTF Shin Go Pro EL', 'A-OTF Shin Go Pro L', 'A-OTF Shin Go Pro DB', 'A-OTF Shin Go Pro B', 'A-OTF Shin Go Pro H', sans-serif;
     font-weight: 400;
 }
