@@ -65,6 +65,13 @@
     src: local('A-OTF Shin Go Pro H'), url('../fonts/AOTFShinGoProHeavy.woff') format('woff');
 }
 
+.audio{
+  width:100%;
+}
+.audio audio{
+  margin: 0 auto;
+  display: table;
+}
 
 body{
     font-family: 'A-OTF Shin Go Pro R Sub','Roboto Condensed', sans-serif;
